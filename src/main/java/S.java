@@ -15,7 +15,7 @@ public class S {
         driver.manage().timeouts().implicitlyWait(80, TimeUnit.SECONDS);
         driver.get(baseUrl);
         driver.manage().window().maximize();
-
+ driver.close();
     }
 
 }
